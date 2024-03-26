@@ -1,0 +1,103 @@
+.profile_content {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.profile_content h1 {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+}
+
+.profile_centered {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 15rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    background-color: white;
+    padding-top: 1.5rem;
+    border-radius: 0.4rem;
+}
+
+.section h2 {
+    font-size: 0.9rem;
+    font-family: 'Montserrat';
+    color: rgb(119, 116, 116);
+    border-bottom: 0.1rem lightgray solid;
+    padding-bottom: 0.8rem;
+}
+
+.section h3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+}
+
+.user-info {
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+    color: gray;
+}
+
+p {
+    margin: 0;
+}
+
+.add-user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gray {
+    color: gray;
+    font-size: 0.8rem;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.margin-left {
+    margin-left: 0.5rem;
+}
+
+.name-animal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    margin-left: 1rem;
+    border-bottom: 0.1rem solid lightgray;
+    padding-bottom: 0.7rem;
+}
+
+.animal-input {
+    border: 0.1rem lightgray solid;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    width: 55%;
+}
+
+.animal-btn {
+    background-color: #ffcd4d;
+    color: black;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    font-size: 0.7rem;
+}
+
+.margin-bottom {
+    margin-bottom: 0.5rem;
+}
+
+.error {
+    border: red 0.1rem solid;
+}

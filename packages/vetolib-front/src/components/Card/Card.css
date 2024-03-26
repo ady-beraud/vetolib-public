@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.card_img {
+    height: 5rem;
+    margin-bottom: 1.3rem;
+}
+
+.card_text {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}

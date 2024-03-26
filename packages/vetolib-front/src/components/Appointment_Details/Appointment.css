@@ -1,0 +1,45 @@
+.smaller {
+    font-size: 0.85rem;
+}
+
+.blue-text {
+    color: #107aca;
+    line-height: 1.5rem;
+}
+
+.calendar-img {
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.no-appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    height: 83vh;
+}
+
+.no-appointments h2 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat';
+}
+
+.no-appointments p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat';
+}
+
+.no-appointments-link {
+    background-color: #107aca;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}

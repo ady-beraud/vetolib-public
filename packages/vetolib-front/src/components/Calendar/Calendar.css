@@ -1,0 +1,49 @@
+.table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.th {
+    padding: 0.8rem;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    color: grey;
+    width: 70%;
+}
+
+.slots {
+    background-color: #e5f9ff;
+    display: block;
+    margin: 0.2rem 0;
+    margin-left: 15%;
+    border-radius: 0.4rem;
+    font-family: 'Roboto';
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    width:70%;
+    cursor: pointer;
+}
+
+.slots:hover {
+    background-color: #a0d2f8;
+}
+
+.no-slot {
+    background-color: #e5f9ff;
+    display: block;
+    margin: 0.2rem 0;
+    margin-left: 15%;
+    border-radius: 0.4rem;
+    font-family: 'Roboto';
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    width:70%;
+    cursor: pointer;
+}
+
+.slot-clicked {
+    background-color: #ffcd4d;
+}

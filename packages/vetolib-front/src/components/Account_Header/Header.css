@@ -1,0 +1,17 @@
+.account {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 39%;
+    height: 7vh;
+    align-items: center;
+}
+
+.active {
+    background-color: #5ab0f2;
+    width: 33%;
+}
+
+.add-width {
+    width: 33%;
+}

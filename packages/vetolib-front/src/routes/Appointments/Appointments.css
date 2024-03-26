@@ -1,0 +1,50 @@
+.height_page {
+  min-height: 100vh;
+  background-color: aliceblue;
+}
+
+.appointment_page {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.appointment_cards {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  margin-left: 4%;
+  border-right: lightgray solid 0.1rem;
+}
+
+.appointment_cards h1 {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  height: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 85%;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+}
+
+.appointment_details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4%;
+  margin-top: 4rem;
+  width: 61%;
+  background-color: white;
+  height: min-content;
+  border-bottom-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+}
+
+.appointment {
+  cursor: pointer;
+}

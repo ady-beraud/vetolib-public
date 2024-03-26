@@ -1,0 +1,47 @@
+.date_time {
+    display: flex;
+    flex-direction: row;
+    background-color: #435d75;
+    color: white;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    padding: 0.5rem;
+    font-family: 'Roboto';
+    font-size: 0.85rem;
+}
+
+p {
+    display: flex;
+    align-items:center;
+    margin: 0 0.5rem;
+}
+
+.svg {
+    margin-right: 0.5rem;
+}
+
+.info_appointment {
+    padding: 1rem;
+    font-family: 'Roboto';
+    font-size: 0.85rem;
+    font-weight: lighter;
+}
+
+.separate {
+    border-bottom: 0.1rem solid lightgrey;
+}
+
+.bold {
+    font-weight: 900;
+    color: #2c3d4d;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.space {
+    margin-bottom: 0.7rem;
+}
+
+.p-margin {
+    margin-left: 0.5rem;
+}

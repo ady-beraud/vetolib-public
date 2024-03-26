@@ -1,0 +1,150 @@
+.professional-page {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.professional-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #294056;
+    height: 10rem;
+}
+
+.professional-img {
+    height: 8rem;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+}
+
+.professional-details {
+    align-items: center;
+    margin-left: 2rem;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.professional-name {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.professional-job {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.professional-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat';
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+}
+
+.card-info {
+    padding: 0 1.5rem;
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1.5rem;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.remove-margin {
+    margin: 0;
+}
+
+.pro-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-margin {
+    margin: 0.5rem 0;
+}
+
+.pro-pay {
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment {
+    text-align: center;
+    background-color: #ffcd4d;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 10rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.highlight {
+    color: black;
+}
+
+.recap {
+    display: none;
+}
+
+.btn-container {
+    margin-bottom: 0.5rem;
+}
+
+.red {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.animal-appointment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.select-animal {
+    margin-left: 1rem;
+    padding: 0 1rem;
+    border: 0.1rem lightgray solid;
+    border-radius: 0.3rem;
+}

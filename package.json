@@ -1,0 +1,16 @@
+{
+  "name": "vetolib",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-front": "yarn workspace vetolib-front start",
+    "build-front": "yarn && yarn workspace vetolib-front build",
+    "build-back": "yarn",
+    "start-server": "yarn workspace vetolib-server start",
+    "start": "yarn run start-server && yarn run start-front",
+    "test": "react-scripts test"
+  }
+}

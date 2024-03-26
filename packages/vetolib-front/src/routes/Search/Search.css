@@ -1,0 +1,25 @@
+.search-page {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.searching {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-results {
+    margin-top: 6rem;
+    position: absolute;
+}
+
+.blue {
+    background-color: #107aca;
+    color: white;
+}
+
+.no-result {
+    font-family: 'Roboto';
+}

@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #107aca;
+    color: white;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    height: 7vh;
+}
+
+.logo {
+    font-family: 'Cookie', sans-serif;
+    margin: 0;
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+h2 { 
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.connection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.link-connection {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}

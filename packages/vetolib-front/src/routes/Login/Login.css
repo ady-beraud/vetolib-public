@@ -1,0 +1,111 @@
+.login_register {
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.login {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 0.45rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.login_input {
+    width: 95%;
+    border: 0.1rem lightgray solid;
+    border-radius: 0.4rem;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.connect {
+    width: 98%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    background-color: #ffcd4d;
+    color: black;
+    margin-top: 1.2rem;
+}
+
+.google_login_btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 0.1rem solid lightgrey;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.google_icon {
+    height: 1.8rem;
+}
+
+.forgotten {
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    font-family: 'Montserrat';
+    border-bottom: solid black 0.1rem;
+    padding-bottom: 0.8rem;
+}
+
+.register {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.45rem;
+}
+
+.register-link {
+    color: #107aca;
+    font-size: 0.85rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.error-details {
+    background-color: #fff5f6;
+    width: 95%;
+    border: 0.1rem #ffccd0 solid;
+    border-radius: 0.4rem;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.6rem;
+    font-size: 0.7rem;
+    color: #a30036;
+    display: flex;
+    align-items: center;
+}
+
+.error_input {
+    border: red 0.1rem solid;
+}
